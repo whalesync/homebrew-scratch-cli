@@ -5,20 +5,20 @@
 class Scratchmd < Formula
   desc "Sync local Markdown files with your CMS (Webflow, WordPress, etc)."
   homepage "https://github.com/whalesync/scratch-cli"
-  version "0.3.3"
+  version "0.3.4"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.3/scratchmd_darwin_amd64.tar.gz"
-      sha256 "068c1762213c58d1b8830c03b2230a000ce231885b3a3e6b6ff263a0f7b89dc1"
+      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.4/scratchmd_darwin_amd64.tar.gz"
+      sha256 "114039f93ae4e7b99ce8d67c49ec3c09d6dc1937b97a4de02b493b7dae032a2c"
 
       def install
         bin.install "scratchmd"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.3/scratchmd_darwin_arm64.tar.gz"
-      sha256 "bf1252ce4fe29805c787d3fd94b6c1040bda18a2affd18a0e9cf6ef742909643"
+      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.4/scratchmd_darwin_arm64.tar.gz"
+      sha256 "8f8ab060610c5e272aad2f21b7b649ea88d2292877249e95623198bbc5aedcad"
 
       def install
         bin.install "scratchmd"
@@ -28,15 +28,15 @@ class Scratchmd < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.3/scratchmd_linux_amd64.tar.gz"
-      sha256 "e202837d3db048ef2ca52e42addc2b705159a66b32249df4b4203ce9ae186be2"
+      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.4/scratchmd_linux_amd64.tar.gz"
+      sha256 "e74c0e0e21b93f223580ce37b16e1c426e5e246a8fd18af65bcb89d1c6b64b7a"
       def install
         bin.install "scratchmd"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.3/scratchmd_linux_arm64.tar.gz"
-      sha256 "2fc9470166f1f27df7e3330cff2362a10196f3a22bae0bfd8df6ff6ada3c0cad"
+      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.4/scratchmd_linux_arm64.tar.gz"
+      sha256 "8a38b4051efcc60404b12ec72b2eda83d27bbeeede6af16f870144e00e3dbcff"
       def install
         bin.install "scratchmd"
       end
