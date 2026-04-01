@@ -1,4 +1,4 @@
-cask "scratch-desktop@0" do
+cask "scratch-desktop@0.2.2" do
   version "0.2.2"
 
   if Hardware::CPU.arm?
