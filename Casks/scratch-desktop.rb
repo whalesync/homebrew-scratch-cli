@@ -1,11 +1,11 @@
 cask "scratch-desktop" do
-  version "0.1.1"
+  version "0.2.1"
 
   if Hardware::CPU.arm?
-    url "https://github.com/whalesync/scratch-cli/releases/download/v0.1.1-desktop/Scratch%20Desktop-0.1.1-arm64.zip"
+    url "https://github.com/whalesync/scratch-cli/releases/download/v0.2.1-desktop/Scratch%20Desktop-0.2.1-arm64.zip"
     sha256 ""
   else
-    url "https://github.com/whalesync/scratch-cli/releases/download/v0.1.1-desktop/Scratch%20Desktop-0.1.1-x64.zip"
+    url "https://github.com/whalesync/scratch-cli/releases/download/v0.2.1-desktop/Scratch%20Desktop-0.2.1-x64.zip"
     sha256 ""
   end
 
