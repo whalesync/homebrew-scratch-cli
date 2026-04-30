@@ -1,27 +1,27 @@
 class ScratchmdAT03 < Formula
   desc "Scratch content management CLI"
   homepage "https://github.com/whalesync/scratch-cli"
-  version "0.3.70"
+  version "0.3.71"
 
   on_macos do
     on_arm do
-      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.70/scratchmd_darwin_arm64.tar.gz"
-      sha256 "45403b1cceb96d43fb6dc7e09d9da5ba4b65f580786f6986b9aa4fc248b1f7fc"
+      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.71/scratchmd_darwin_arm64.tar.gz"
+      sha256 "a7c78cfaa633ea839b10b3ac80e18bd81c4121fcec8a87cb064749e522622a71"
     end
     on_intel do
-      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.70/scratchmd_darwin_amd64.tar.gz"
+      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.71/scratchmd_darwin_amd64.tar.gz"
       sha256 ""
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.70/scratchmd_linux_arm64.tar.gz"
+      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.71/scratchmd_linux_arm64.tar.gz"
       sha256 ""
     end
     on_intel do
-      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.70/scratchmd_linux_amd64.tar.gz"
-      sha256 "dddfe037d31731bc3ff25d5e904277ca2654e12b8569a5a0ca8e5ad9c4585329"
+      url "https://github.com/whalesync/scratch-cli/releases/download/v0.3.71/scratchmd_linux_amd64.tar.gz"
+      sha256 "c0848fb04009a5f14531e1ca4d5a41ea35e7dfe81951baecfca64a0fdead6203"
     end
   end
 
