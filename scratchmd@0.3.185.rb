@@ -1,4 +1,4 @@
-class ScratchmdAT03 < Formula
+class ScratchmdAT03185 < Formula
   desc "Scratch content management CLI"
   homepage "https://github.com/whalesync/scratch-cli"
   version "0.3.185"
